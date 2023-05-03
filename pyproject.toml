@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "firewall-updater"
+version = "0.1.0"
+description = "Update firewall rules based on Consul catalog"
+authors = ["Anton Iakimov <yakimant@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-consul2 = "0.1.5"
+requests = "2.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
